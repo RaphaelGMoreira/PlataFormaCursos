@@ -8,7 +8,7 @@ public class Professor : Funcionario
     {
     }
 
-    public bool ValidaSeSabeConhecimento(string conhecimento)
+    public override bool ValidaSeSabeConhecimento(string conhecimento)
     {
         return Conhecimentos.Contains(conhecimento);
     }

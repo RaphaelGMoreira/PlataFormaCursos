@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlataformaCurso.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,9 @@ namespace PlataformaCursos.src.Models
         {
             this.Nome = nome;
         }
+
+        public abstract bool ValidaSeSabeConhecimento(string conhecimento);
+
 
     }
 
